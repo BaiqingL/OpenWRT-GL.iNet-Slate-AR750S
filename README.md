@@ -9,7 +9,7 @@ OpenWRT 源码经过 https://github.com/coolsnowwolf/lede 修改
 * 中文+英文语言版本
 * Argon主题
 * SS (SSR Plus+)
-* SSR (SSsR Plus+)
+* SSR (SSR Plus+)
 * V2Ray (SSR Plus+)
 * Trojan (SSR Plus+)
 * BBR Tcp Congestion Control
