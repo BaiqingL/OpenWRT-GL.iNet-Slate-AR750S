@@ -12,6 +12,7 @@ OpenWRT 源码经过 https://github.com/coolsnowwolf/lede 修改
 * ShadowsocksR (ShadowSocksR Plus+)
 * V2Ray (ShadowSocksR Plus+)
 * Trojan (ShadowSocksR Plus+)
+* BBR Tcp Congestion Control
 * 挡广告 (AdByBy Plus+)
 * 解锁网易歌曲 (Unblock NetEase Music)
 
