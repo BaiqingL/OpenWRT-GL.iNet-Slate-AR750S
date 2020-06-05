@@ -2,12 +2,24 @@
 
 OpenWRT source taken from https://github.com/coolsnowwolf/lede
 
-专门为GL.iNet AR750S迷你路由器编译的OpenWRT，带有ShadowSocks，Trojan，V2Ray支持。
-## 安装步骤：
+专门为GL.iNet AR750S迷你路由器编译的OpenWRT，带有特殊插件支持。
+
+## 支持功能 (Supported Features)：
+* 中文+英文语言版本
+* Argon主题
+* Shadowsocks (ShadowSocksR Plus+)
+* ShadowsocksR (ShadowSocksR Plus+)
+* V2Ray (ShadowSocksR Plus+)
+* Trojan (ShadowSocksR Plus+)
+* 挡广告 (AdByBy Plus+)
+* 解锁网易歌曲 (Unblock NetEase Music)
+
+
+### 安装步骤：
 1. 将路由器电源切断，重连之前按下重置键，链接电源后等5G灯光闪烁5次后松开。
 2. 访问192.168.1.1，选择在这里下载的镜像上传，点击Update。
 3. 等待到路由器的三个灯光亮起为止。
 
-### 用户：
+#### 用户：
 用户名： root
 密码： password
