@@ -1,6 +1,7 @@
 # OpenWRT GL.iNet AR750S (Slate)
+![Alt text](Screenshot.png)
 
-OpenWRT source taken from https://github.com/coolsnowwolf/lede
+OpenWRT 源码经过 https://github.com/coolsnowwolf/lede 修改
 
 专门为GL.iNet AR750S迷你路由器编译的OpenWRT，带有特殊插件支持。
 
