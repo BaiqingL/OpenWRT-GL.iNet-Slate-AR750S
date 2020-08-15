@@ -3,7 +3,7 @@
 
 OpenWRT 源码: https://github.com/coolsnowwolf/lede
 
-专门为GL.iNet AR750S迷你路由器编译的OpenWRT，带有特殊插件支持。
+专门为GL.iNet AR750S (Slate) 迷你路由器编译的OpenWRT，带有特殊插件支持。
 
 ## 支持功能 (Supported Features)：
 * 中文+英文语言版本
@@ -21,5 +21,6 @@ OpenWRT 源码: https://github.com/coolsnowwolf/lede
 3. 等待到路由器的三个灯光亮起为止。
 
 #### 用户：
-用户名： root
-密码： password
+用户名： `root`
+
+密码： `password`
