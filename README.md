@@ -9,6 +9,7 @@ OpenWRT 源码: https://github.com/coolsnowwolf/lede
 * 中文+英文语言版本
 * Argon主题
 * SSR (SSR Plus+)
+* V2Ray (SSR Plus+)
 * Trojan (SSR Plus+)
 * BBR Tcp Congestion Control
 * 挡广告 (AdByBy Plus+)
@@ -19,6 +20,9 @@ OpenWRT 源码: https://github.com/coolsnowwolf/lede
 1. 将路由器电源切断，重连之前按下重置键，接通电源后等5G灯光闪烁5次后松开。
 2. 访问192.168.1.1，选择在这里下载的镜像上传，点击Update，耐心等待镜像上传。
 3. 等待到路由器的三个灯光亮起为止。
+4. 进入路由器网段控制板。
+5. 使用`update.bin`文件来刷入固件。
+6. 等待固件刷入完成。
 
 #### 用户：
 用户名： `root`
