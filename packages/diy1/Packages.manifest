@@ -1,0 +1,183 @@
+Package: ipt2socks
+Version: 1.1.3-1
+Depends: libc
+Source: feeds/diy1/package/ipt2socks
+SourceName: ipt2socks
+Section: net
+Architecture: mips_24kc
+Installed-Size: 32298
+Filename: ipt2socks_1.1.3-1_mips_24kc.ipk
+Size: 32946
+SHA256sum: be379491373b8f2cff59b7758bc8a21dde83dd547f2101c7aed9d75e1d161447
+Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
+
+Package: luci-app-passwall
+Version: 3.9-56
+Depends: libc, libmbedtls12, iptables-mod-tproxy, ip, ipset, coreutils, coreutils-base64, coreutils-nohup, luci-lib-jsonc, curl, ca-certificates, resolveip, unzip, dnsmasq-full, tcping, libuci-lua, ipt2socks, ssocks, ssocksd, pdnsd-alt, v2ray, trojan-plus, haproxy, https-dns-proxy
+Source: feeds/diy1/lienol/luci-app-passwall
+SourceName: luci-app-passwall
+Section: opt
+Architecture: all
+Installed-Size: 893332
+Filename: luci-app-passwall_3.9-56_all.ipk
+Size: 893350
+SHA256sum: f8e4e6ef8347c397c68cba7699250d7396d9686e17681040d0050ef7621d7416
+Description:  LuCI support for PassWall
+
+Package: luci-app-ramfree
+Version: 1.0-1
+Depends: libc
+Source: feeds/diy1/lienol/luci-app-ramfree
+SourceName: luci-app-ramfree
+Section: luci
+Architecture: all
+Installed-Size: 418
+Filename: luci-app-ramfree_1.0-1_all.ipk
+Size: 1090
+SHA256sum: 7a062c9056ecda043c53f867ae84c066477cffa1ebd947d2321cb96c8895cba6
+Description:  Add Release RAM Button
+
+Package: luci-app-timecontrol
+Version: 1.0-1-20200402
+Depends: libc
+Source: feeds/diy1/lienol/luci-app-timecontrol
+SourceName: luci-app-timecontrol
+Section: luci
+Architecture: all
+Installed-Size: 2801
+Filename: luci-app-timecontrol_1.0-1-20200402_all.ipk
+Size: 3541
+SHA256sum: 5e90229343683a38c39c12ea7e741ffc5a25c466c00454df22232a29fdc4ba60
+Description:  LuCI support for Time Control
+
+Package: luci-i18n-ramfree-zh-cn
+Version: 1.0-1
+Depends: libc, luci-app-ramfree
+Source: feeds/diy1/lienol/luci-app-ramfree
+SourceName: luci-i18n-ramfree-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 406
+Filename: luci-i18n-ramfree-zh-cn_1.0-1_all.ipk
+Size: 1193
+SHA256sum: b61a8b56f5bf99f5c16343ba64d6cd1cc3bc2191cb811318ab23c26f956a0db8
+Description:  Translation for luci-app-ramfree - 中文 (Chinese)
+
+Package: luci-i18n-timecontrol-zh-cn
+Version: 1.0-1-20200402
+Depends: libc, luci-app-timecontrol
+Source: feeds/diy1/lienol/luci-app-timecontrol
+SourceName: luci-i18n-timecontrol-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 701
+Filename: luci-i18n-timecontrol-zh-cn_1.0-1-20200402_all.ipk
+Size: 1498
+SHA256sum: bfcf60299e0ba101d24650e6d6e089a780930c725b528e7590550226682db7f1
+Description:  Translation for luci-app-timecontrol - 中文 (Chinese)
+
+Package: luci-theme-argon-dark-mod
+Version: 1.6-20200523
+Depends: libc
+Source: feeds/diy1/lienol/luci-theme-argon-dark-mod
+SourceName: luci-theme-argon-dark-mod
+Section: luci
+Architecture: all
+Installed-Size: 1520375
+Filename: luci-theme-argon-dark-mod_1.6-20200523_all.ipk
+Size: 1520562
+SHA256sum: 2492025612a81a261f301912c44d3f4e8ffdb2cbfa5c25b6a2e7b65cf3fdc0ea
+Description:  Argon Dark Mod Theme
+
+Package: pdnsd-alt
+Version: 1.2.9b-par-a8e46ccba7b0fa2230d6c42ab6dcd92926f6c21d
+Depends: libc, libpthread
+Source: feeds/diy1/package/pdnsd-alt
+SourceName: pdnsd-alt
+Section: net
+Architecture: mips_24kc
+Installed-Size: 78699
+Filename: pdnsd-alt_1.2.9b-par-a8e46ccba7b0fa2230d6c42ab6dcd92926f6c21d_mips_24kc.ipk
+Size: 79546
+SHA256sum: da3c79c6fe7c760e30010b88ad05bed16fefc13a29a168fec67e0244e4014839
+Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
+ contents are written to hard disk on exit) that is designed to cope with
+ unreachable or down DNS servers (for example in dial-in networking).
+ 
+ pdnsd can be used with applications that do dns lookups, eg on startup, and
+ can't be configured to change that behaviour, to prevent the often
+ minute-long hangs (or even crashes) that result from stalled dns queries.
+
+Package: ssocks
+Version: 0.0.14-1
+Depends: libc, libopenssl1.1
+Source: feeds/diy1/package/ssocks
+SourceName: ssocks
+Section: net
+Architecture: mips_24kc
+Installed-Size: 11316
+Filename: ssocks_0.0.14-1_mips_24kc.ipk
+Size: 12100
+SHA256sum: a78b8e18bb34666b5ce777339c062444755981793bdb61c0bdefa89b4ef51d68
+Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool and a socks5 relay.
+
+Package: ssocksd
+Version: 0.0.14-1
+Depends: libc, libopenssl1.1
+Source: feeds/diy1/package/ssocks
+SourceName: ssocksd
+Section: net
+Architecture: mips_24kc
+Installed-Size: 11508
+Filename: ssocksd_0.0.14-1_mips_24kc.ipk
+Size: 12282
+SHA256sum: e5e4916a57d677ce0a2e2dc009de9429abd033b836095858af54a4dd4b4ffe28
+Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool and a socks5 relay.
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+Source: feeds/diy1/package/tcping
+SourceName: tcping
+Section: net
+Architecture: mips_24kc
+Installed-Size: 3781
+Filename: tcping_0.3-1_mips_24kc.ipk
+Size: 4436
+SHA256sum: 4ad6c7c96664c9526742cf754a0ef03d6f3d38b838dbf989829f889ab9c995d5
+Description:  tcping measures the latency of a tcp-connection
+
+Package: trojan-plus
+Version: 10.0.1-1
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options
+Source: feeds/diy1/package/trojan-plus
+SourceName: trojan-plus
+License: GPL-3.0
+Section: net
+Maintainer: Trojan-Plus-Group
+Architecture: mips_24kc
+Installed-Size: 350885
+Filename: trojan-plus_10.0.1-1_mips_24kc.ipk
+Size: 351116
+SHA256sum: 892fcc2f96bc18bc11a4ed4bf580f624039c88f87f4451d56dd97c8dda7878bd
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
+Package: v2ray
+Version: 4.27.5-1
+Depends: libc, ca-certificates
+Source: feeds/diy1/package/v2ray
+SourceName: v2ray
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Xingwang Liao <kuoruan@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 4083130
+Filename: v2ray_4.27.5-1_mips_24kc.ipk
+Size: 4084703
+SHA256sum: 1805311da2274e350b54cd6686d906ecb8311edc73ef17c916e641bb39edd391
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This package contains v2ray, v2ctl and v2ray-assets.
+

@@ -1,0 +1,339 @@
+Package: adblock
+Version: 4.0.6-2
+Depends: libc, jshn, jsonfilter, coreutils, coreutils-sort, ca-bundle, opkg
+Source: feeds/packages/net/adblock
+SourceName: adblock
+License: GPL-3.0-or-later
+Section: net
+Maintainer: Dirk Brenken <dev@brenken.org>
+Architecture: all
+Installed-Size: 17990
+Filename: adblock_4.0.6-2_all.ipk
+Size: 18980
+SHA256sum: 66d22c52831982b4e71ba4bc1890de8979fdc6273dd194f2df14ff1bff0e6121
+Description:  Powerful adblock script to block ad/abuse domains via dnsmasq, unbound, named or kresd.
+ The script supports many domain blacklist sites plus manual black- and whitelist overrides.
+ Please see https://github.com/openwrt/packages/blob/master/net/adblock/files/README.md for further information.
+ 
+
+Package: boost-program_options
+Version: 1.71.0-6
+Depends: libc, libstdcpp6, libpthread, librt
+Source: feeds/packages/libs/boost
+SourceName: boost-program_options
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 112206
+Filename: boost-program_options_1.71.0-6_mips_24kc.ipk
+Size: 112789
+SHA256sum: 843089eb3fe184ec98d1bcd332bf23baf351aa0ff7f32f08ad3f2a999a8aa4e8
+Description:  This package contains the Boost program_options library.
+
+Package: boost-system
+Version: 1.71.0-6
+Depends: libc, libstdcpp6, libpthread, librt
+Source: feeds/packages/libs/boost
+SourceName: boost-system
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 1094
+Filename: boost-system_1.71.0-6_mips_24kc.ipk
+Size: 1884
+SHA256sum: 29947913b53dc6c2b9f53141ac85b37b7f2341ebcf5cd0c1059d1f95f50712f1
+Description:  This package contains the Boost system library.
+
+Package: boost
+Version: 1.71.0-6
+Depends: libc, libstdcpp6, libpthread, librt
+Source: feeds/packages/libs/boost
+SourceName: boost
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 105
+Filename: boost_1.71.0-6_mips_24kc.ipk
+Size: 1237
+SHA256sum: 043a05871deed6ecd5ff9abcb4b1c3e054c9269540672a3cd880deb6f38abc36
+Description:  This package provides the Boost v1.71.0 libraries.
+ Boost is a set of free, peer-reviewed, portable C++ source libraries.
+ 
+ This package provides the following run-time libraries:
+ - atomic
+ - chrono
+ - container
+ - context
+ - contract
+ - coroutine and coroutine2 (Coroutine is deprecated - use Coroutine2)
+ - date_time
+ - exception
+ - filesystem
+ - fiber
+ - graph
+ - - graph-parallel
+ - iostreams
+ - locale (Requires kernel being compiled with full language support)
+ - log
+ - math
+ - program_options
+ - python
+ - python3
+ - random
+ - regex
+ - serialization and wserialization
+ - stackstrace
+ - system
+ - thread
+ - timer
+ - type_erasure
+ - wave
+ 
+ There are many more header-only libraries supported by Boost.
+ See more at http://www.boost.org/doc/libs/1_71_0/
+
+Package: coreutils-base64
+Version: 8.30-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/base64:/usr/bin/gnu-base64
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-base64
+Section: utils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 18304
+Filename: coreutils-base64_8.30-2_mips_24kc.ipk
+Size: 19061
+SHA256sum: b6c45ae55c85835e5827d25c6b9aacdb61344a5523e4b362b3011c58fc9d1cbf
+Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils-nohup
+Version: 8.30-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nohup:/usr/bin/gnu-nohup
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-nohup
+Section: utils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 16300
+Filename: coreutils-nohup_8.30-2_mips_24kc.ipk
+Size: 17007
+SHA256sum: 510bcfc4dbecb1a25cfa21aaccda39409dbc665ebd623df9bb59cb39cf9a4de2
+Description:  Full version of standard GNU nohup utility.
+
+Package: coreutils-sort
+Version: 8.30-2
+Depends: libc, coreutils, libpthread
+Alternatives: 300:/usr/bin/sort:/usr/bin/gnu-sort
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sort
+Section: utils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 42853
+Filename: coreutils-sort_8.30-2_mips_24kc.ipk
+Size: 43461
+SHA256sum: 28f0ab5264212b8dff97b9ce47a9888431ba3f003ae21b9c5690dd456f170584
+Description:  Full version of standard GNU sort utility.
+
+Package: coreutils
+Version: 8.30-2
+Depends: libc
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 105
+Filename: coreutils_8.30-2_mips_24kc.ipk
+Size: 917
+SHA256sum: 044cf66e11c8bb74c42dcac4899f45bf8829e4c0ad738f28993295a2275a748e
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: ddns-scripts
+Version: 2.7.8-13
+Source: feeds/packages/net/ddns-scripts
+SourceName: ddns-scripts
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 15014
+Filename: ddns-scripts_2.7.8-13_all.ipk
+Size: 16085
+SHA256sum: 3860641b40fd4edb0f5966dd493e61b6bcb04da058be692b5b162cae9f16a57d
+Description:  Dynamic DNS Client scripts (with IPv6 support) - Info: https://openwrt.org/docs/guide-user/services/ddns/client
+
+Package: etherwake
+Version: 1.09-4
+Depends: libc
+Source: feeds/packages/net/etherwake
+SourceName: etherwake
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: mips_24kc
+Installed-Size: 4858
+Filename: etherwake_1.09-4_mips_24kc.ipk
+Size: 5768
+SHA256sum: 422b97328228e0e1fabd9a5c16b5173c06831534cbc9ac610592b670b44a7f9e
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: haproxy
+Version: 2.0.15-1
+Depends: libc, libpcre, libltdl7, zlib, libpthread, libopenssl1.1, libncurses6, libreadline8, libatomic1
+Source: feeds/packages/net/haproxy
+SourceName: haproxy
+License: GPL-2.0-only
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Thomas Heil <heil@terminal-consulting.de>, Christian Lachner <gladiac@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 681403
+Filename: haproxy_2.0.15-1_mips_24kc.ipk
+Size: 681271
+SHA256sum: cb4eacfa02bb9ce53c371f8ed149b02ca8382d379cc04b2cae90f8f92789d0f9
+Description:  Open source Reliable, High Performance TCP/HTTP Load Balancer.
+ This package is built with SSL and LUA support.
+
+Package: https-dns-proxy
+Version: 2020-04-09-3
+Depends: libc, libcares, libcurl4, libev, ca-bundle
+Conflicts: https_dns_proxy
+Source: feeds/packages/net/https-dns-proxy
+SourceName: https-dns-proxy
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Stan Grishin <stangri@melmac.net>
+Architecture: mips_24kc
+Installed-Size: 11307
+Filename: https-dns-proxy_2020-04-09-3_mips_24kc.ipk
+Size: 12210
+SHA256sum: 6f91722cebe0bdf004b2c4a16ab0fb0951e98c7edad1d83fea5afea72d255ba7
+Description:  https_dns_proxy is a light-weight DNS<-->HTTPS, non-caching translation proxy for the RFC 8484 DNS-over-HTTPS standard. It receives regular (UDP) DNS requests and issues them via DoH.
+ Please see https://github.com/openwrt/packages/blob/master/net/https-dns-proxy/files/README.md for further information.
+
+Package: libcares
+Version: 1.15.0-4
+Depends: libc
+Source: feeds/packages/libs/c-ares
+SourceName: libcares
+License: MIT
+Section: libs
+Maintainer: Karl Palsson <karlp@etactica.com>
+Architecture: mips_24kc
+Installed-Size: 27132
+Filename: libcares_1.15.0-4_mips_24kc.ipk
+Size: 27965
+SHA256sum: 713f06d394a129dfa489c840b85ba268395d78cdc9b035b88acf2b70b1cdac85
+Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
+ 
+ C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
+ Netware, Android and many more operating systems.
+ 
+
+Package: libev
+Version: 4.25-1
+Depends: libc
+Source: feeds/packages/libs/libev
+SourceName: libev
+License: BSD-2-Clause
+Section: libs
+Maintainer: Karl Palsson <karlp@tweak.net.au>
+Architecture: mips_24kc
+Installed-Size: 20898
+Filename: libev_4.25-1_mips_24kc.ipk
+Size: 21710
+SHA256sum: 8205609c9030b8377a8f955606b523bff4d96332eee1369f7fa27b92dc04c8fc
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
+Package: libpcre
+Version: 8.43-1
+Depends: libc
+Source: feeds/packages/libs/pcre
+SourceName: libpcre
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: mips_24kc
+Installed-Size: 80470
+Filename: libpcre_8.43-1_mips_24kc.ipk
+Size: 81331
+SHA256sum: b9e2a1cfcc63a88648428bcde2218ae0427c86fec4aefecb9551f76d0bcb639c
+Description:  A Perl Compatible Regular Expression library
+
+Package: smartdns
+Version: 8.2020.29-1
+Depends: libc, libpthread, libopenssl1.1
+Source: feeds/packages/net/smartdns
+SourceName: smartdns
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Nick Peng <pymumu@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 65883
+Filename: smartdns_8.2020.29-1_mips_24kc.ipk
+Size: 66604
+SHA256sum: aed444dea8943d2ce5181ec8c07b3d02463621eb38cd8ef26c5636698d1f3b1a
+Description:  SmartDNS is a local DNS server which accepts DNS query requests from local network clients,
+ gets DNS query results from multiple upstream DNS servers concurrently, and returns the fastest IP to clients.
+ Unlike dnsmasq's all-servers, smartdns returns the fastest IP. 
+
+Package: unzip
+Version: 6.0-8
+Depends: libc
+Source: feeds/packages/utils/unzip
+SourceName: unzip
+License: BSD-4-Clause
+LicenseFiles: LICENSE
+Section: utils
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 102892
+Filename: unzip_6.0-8_mips_24kc.ipk
+Size: 103913
+SHA256sum: 0f4529aa8508b452c2c75f41f735b2f4ab4d545ffa21e92792fe3206f275d0e6
+Description:  InfoZIP's unzip program. With the exception of multi-volume archives
+ (ie, .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
+
+Package: wget
+Version: 1.20.3-4
+Depends: libc, libpcre, zlib, libopenssl1.1, librt
+Provides: gnu-wget, wget-ssl
+Alternatives: 300:/usr/bin/wget:/usr/bin/wget-ssl
+Source: feeds/packages/net/wget
+SourceName: wget
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: mips_24kc
+Installed-Size: 182564
+Filename: wget_1.20.3-4_mips_24kc.ipk
+Size: 183088
+SHA256sum: 381ef39b269a5321a8c223a6138bb0117cb9890080cd01639e24f4f55448e18b
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
+
