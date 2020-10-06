@@ -12,12 +12,10 @@ OpenWRT 源码: https://github.com/coolsnowwolf/openwrt
 
 * 中文 + 英文语言版本
 * Dropbear SSH 控制
-* Socks (Passwall)
+* SSR (Passwall)
 * V2Ray (Passwall)
-* Trojan (Passwall)
+* Trojan-Go (Passwall)
 * SmartDNS
-
-*其余软件包编译在packages文件夹内*
 
 ### 安装步骤：
 
